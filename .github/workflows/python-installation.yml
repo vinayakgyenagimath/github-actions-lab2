@@ -21,7 +21,7 @@ jobs:
       with:
         python-version: '${{ matrix.py-version }}'
 
-    - name: Docer info
+    - name: Docer info1
       run:  echo "'${{ matrix.os }}' '${{ matrix.py-version }}'"
       
     
