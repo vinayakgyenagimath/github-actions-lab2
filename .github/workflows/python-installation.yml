@@ -3,6 +3,7 @@ name: Installing Python
 on:
   push:
     branches:
+      - feature
       - !main
 
 jobs:
