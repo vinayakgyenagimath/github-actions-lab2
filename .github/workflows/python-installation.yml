@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     concurrency:
-      group: prod-deploy
+      group: prod-deploy-9
       cancel-in-progress: true
     runs-on: '${{ matrix.os }}'
     strategy:
